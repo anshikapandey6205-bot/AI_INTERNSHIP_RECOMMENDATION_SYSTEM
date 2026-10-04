@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>InternMatch AI</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #050505;
+            color: white;
+            min-height: 100vh;
+        }
+
+        nav {
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 7%;
+            border-bottom: 1px solid #222;
+        }
+
+        .logo {
+            font-size: 22px;
+            font-weight: bold;
+            color: #d7ff3f;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+        }
+
+        nav a:hover {
+            color: #d7ff3f;
+        }
+
+        .hero {
+            min-height: calc(100vh - 70px);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 60px;
+            padding: 70px 7%;
+        }
+
+        .hero-text {
+            max-width: 650px;
+        }
+
+        .tag {
+            display: inline-block;
+            border: 1px solid #333;
+            padding: 8px 14px;
+            border-radius: 30px;
+            color: #d7ff3f;
+            margin-bottom: 25px;
+            font-size: 13px;
+        }
+
+        h1 {
+            font-size: clamp(45px, 7vw, 90px);
+            line-height: 0.95;
+            margin-bottom: 25px;
+        }
+
+        h1 span {
+            color: #d7ff3f;
+        }
+
+        .hero p {
+            color: #999;
+            font-size: 18px;
+            line-height: 1.7;
+            margin-bottom: 35px;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 15px 25px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+        }
+
+        .primary {
+            background: #d7ff3f;
+            color: #050505;
+        }
+
+        .secondary {
+            border: 1px solid #444;
+            color: white;
+        }
+
+        .ai-core {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            border: 1px solid #333;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            box-shadow:
+                0 0 50px rgba(215, 255, 63, 0.08);
+        }
+
+        .orb {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background: #d7ff3f;
+            box-shadow:
+                0 0 40px rgba(215, 255, 63, 0.5);
+            animation: pulse 2s infinite;
+        }
+
+        .ring {
+            position: absolute;
+            width: 230px;
+            height: 230px;
+            border: 1px dashed #555;
+            border-radius: 50%;
+            animation: rotate 8s linear infinite;
+        }
+
+        @keyframes pulse {
+
+            0%, 100% {
+                transform: scale(0.9);
+            }
+
+            50% {
+                transform: scale(1.05);
+            }
+        }
+
+        @keyframes rotate {
+
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        .stats {
+            display: flex;
+            gap: 40px;
+            margin-top: 45px;
+        }
+
+        .stat strong {
+            display: block;
+            color: #d7ff3f;
+            font-size: 25px;
+        }
+
+        .stat small {
+            color: #777;
+        }
+
+        @media (max-width: 800px) {
+
+            nav {
+                padding: 0 5%;
+            }
+
+            nav div:last-child {
+                display: none;
+            }
+
+            .hero {
+                flex-direction: column;
+                text-align: center;
+                padding: 50px 5%;
+            }
+
+            .buttons {
+                justify-content: center;
+            }
+
+            .stats {
+                justify-content: center;
+            }
+
+            .ai-core {
+                width: 240px;
+                height: 240px;
+            }
+
+            .orb {
+                width: 120px;
+                height: 120px;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+<nav>
+
+    <div class="logo">
+        INTERNMATCH AI
+    </div>
+
+    <div>
+
+        <a href="/">Home</a>
+
+        <a href="/internships">
+            Internships
+        </a>
+
+        <a href="/profile">
+            Find My Internship
+        </a>
+
+    </div>
+
+</nav>
+
+
+<section class="hero">
+
+
+    <div class="hero-text">
+
+        <div class="tag">
+            ✦ AI-POWERED INTERNSHIP MATCHING
+        </div>
+
+
+        <h1>
+
+            Don't search.
+            <br>
+
+            <span>Get matched.</span>
+
+        </h1>
+
+
+        <p>
+
+            Tell us about your skills, education and
+            career interests. InternMatch AI analyzes
+            verified internship opportunities and finds
+            opportunities that match your profile.
+
+        </p>
+
+
+        <div class="buttons">
+
+            <a
+                href="/profile"
+                class="btn primary"
+            >
+                Find My Internship →
+            </a>
+
+
+            <a
+                href="/internships"
+                class="btn secondary"
+            >
+                Explore Opportunities
+            </a>
+
+        </div>
+
+
+        <div class="stats">
+
+            <div class="stat">
+
+                <strong>AI</strong>
+
+                <small>
+                    Matching Engine
+                </small>
+
+            </div>
+
+
+            <div class="stat">
+
+                <strong>✓</strong>
+
+                <small>
+                    Verified Sources
+                </small>
+
+            </div>
+
+
+            <div class="stat">
+
+                <strong>100%</strong>
+
+                <small>
+                    Explainable Match
+                </small>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="ai-core">
+
+        <div class="ring"></div>
+
+        <div class="orb"></div>
+
+    </div>
+
+
+</section>
+
+
+</body>
+
+</html>

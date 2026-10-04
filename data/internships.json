@@ -1,0 +1,312 @@
+[
+    {
+        "id": "MEITY-DIIS-2026",
+
+        "title": "Digital India Internship Scheme 2026",
+
+        "organization": "Ministry of Electronics & Information Technology (MeitY)",
+
+        "description": "Official Digital India Internship Scheme for eligible students under the Ministry of Electronics & Information Technology.",
+
+        "domains": [
+            "AI",
+            "Python",
+            "Web Development",
+            "Data Science",
+            "Cyber Security"
+        ],
+
+        "skills": [
+            "Computer Science",
+            "Information Technology",
+            "Electronics",
+            "Communication",
+            "Python",
+            "Technology"
+        ],
+
+        "locations": [
+            "New Delhi"
+        ],
+
+        "work_modes": [
+            "On-site"
+        ],
+
+        "duration": "June 1, 2026 - July 31, 2026",
+
+        "stipend": "See official scheme guidelines",
+
+        "deadline": "April 29, 2026",
+
+        "minimum_cgpa": 0,
+
+        "experience_required": 0,
+
+        "education": [
+            "B.E",
+            "B.Tech",
+            "M.E",
+            "M.Tech",
+            "M.Sc",
+            "MCA"
+        ],
+
+        "branches": [
+            "Computer Science",
+            "Information Technology",
+            "Electronics",
+            "Communications"
+        ],
+
+        "eligibility": [
+            "Indian student",
+            "Student of a recognized university in India",
+            "At least 60% marks in the last held degree or certificate examination",
+            "Eligible specified degree/discipline required",
+            "Second-last year students are eligible under the 2026 scheme"
+        ],
+
+        "documents": [
+            "Academic information",
+            "Institution details",
+            "Documents requested by the official portal"
+        ],
+
+        "source_name": "Digital India Internship Portal - MeitY",
+
+        "source_url": "https://intern.meity.gov.in/",
+
+        "application_url": "https://intern.meity.gov.in/",
+
+        "verified": true,
+
+        "verified_by": "Ministry of Electronics & Information Technology, Government of India",
+
+        "last_verified": "2026-10-03"
+    },
+
+    {
+        "id": "NITI-INTERNSHIP",
+
+        "title": "NITI Aayog Internship Scheme",
+
+        "organization": "NITI Aayog, Government of India",
+
+        "description": "Official NITI Aayog internship programme providing students and research scholars exposure to the work of NITI Aayog divisions and policy-related work.",
+
+        "domains": [
+            "Data Science",
+            "AI",
+            "Research",
+            "Public Policy"
+        ],
+
+        "skills": [
+            "Research",
+            "Data Analysis",
+            "Policy Research",
+            "Writing",
+            "Data Science"
+        ],
+
+        "locations": [
+            "New Delhi"
+        ],
+
+        "work_modes": [
+            "On-site"
+        ],
+
+        "duration": "As specified by NITI Aayog",
+
+        "stipend": "Unpaid",
+
+        "deadline": "Applications accepted from the 1st to 10th of each month",
+
+        "minimum_cgpa": 0,
+
+        "experience_required": 0,
+
+        "education": [
+            "Undergraduate",
+            "Graduate",
+            "Postgraduate",
+            "Research Scholar"
+        ],
+
+        "branches": [],
+
+        "eligibility": [
+            "Undergraduate, graduate, postgraduate students or research scholars",
+            "Must be enrolled in a recognized university/institution",
+            "Applicants must follow the current NITI Aayog internship guidelines"
+        ],
+
+        "documents": [
+            "Academic information",
+            "Application information requested by NITI Aayog"
+        ],
+
+        "source_name": "NITI Aayog Internship Portal",
+
+        "source_url": "https://www.niti.gov.in/internship",
+
+        "application_url": "https://workforindia.niti.gov.in/intern/InternshipEntry/homepage.aspx",
+
+        "verified": true,
+
+        "verified_by": "NITI Aayog, Government of India",
+
+        "last_verified": "2026-10-03"
+    },
+
+    {
+        "id": "NCS-INTERNSHIP-PORTAL",
+
+        "title": "Internship Opportunities - National Career Service",
+
+        "organization": "National Career Service, Ministry of Labour & Employment",
+
+        "description": "Official National Career Service platform providing access to internship opportunities and career services.",
+
+        "domains": [
+            "AI",
+            "Python",
+            "Web Development",
+            "Data Science",
+            "Cyber Security",
+            "Research"
+        ],
+
+        "skills": [
+            "Python",
+            "Java",
+            "Web Development",
+            "Data Analysis",
+            "Communication",
+            "Computer Science"
+        ],
+
+        "locations": [
+            "India"
+        ],
+
+        "work_modes": [
+            "Remote",
+            "Hybrid",
+            "On-site"
+        ],
+
+        "duration": "Varies by listing",
+
+        "stipend": "Varies by listing",
+
+        "deadline": "Varies by listing",
+
+        "minimum_cgpa": 0,
+
+        "experience_required": 0,
+
+        "education": [],
+
+        "branches": [],
+
+        "eligibility": [
+            "Eligibility depends on the individual internship listing"
+        ],
+
+        "documents": [
+            "As requested by the individual listing"
+        ],
+
+        "source_name": "National Career Service - Government of India",
+
+        "source_url": "https://ncs.gov.in/",
+
+        "application_url": "https://ncs.gov.in/",
+
+        "verified": true,
+
+        "verified_by": "Directorate General of Employment, Ministry of Labour & Employment, Government of India",
+
+        "last_verified": "2026-10-03"
+    },
+
+    {
+        "id": "PMIS-OFFICIAL",
+
+        "title": "Prime Minister Internship Scheme",
+
+        "organization": "Ministry of Corporate Affairs, Government of India",
+
+        "description": "Government internship programme providing eligible young people opportunities for structured industry exposure through the Prime Minister Internship Scheme.",
+
+        "domains": [
+            "Business",
+            "Technology",
+            "Finance",
+            "Marketing",
+            "Operations",
+            "Data Science"
+        ],
+
+        "skills": [
+            "Communication",
+            "Business",
+            "Technology",
+            "Data Analysis",
+            "Management"
+        ],
+
+        "locations": [
+            "India"
+        ],
+
+        "work_modes": [
+            "On-site",
+            "Hybrid"
+        ],
+
+        "duration": "Depends on the internship opportunity",
+
+        "stipend": "See current PMIS opportunity",
+
+        "deadline": "Depends on the current PMIS cycle",
+
+        "minimum_cgpa": 0,
+
+        "experience_required": 0,
+
+        "education": [
+            "12th Pass",
+            "ITI",
+            "Diploma",
+            "Graduate",
+            "Postgraduate"
+        ],
+
+        "branches": [],
+
+        "eligibility": [
+            "Eligibility depends on the current PMIS cycle and individual internship listing",
+            "Applicants must satisfy the current official PMIS requirements"
+        ],
+
+        "documents": [
+            "Documents specified by the PMIS portal"
+        ],
+
+        "source_name": "Prime Minister Internship Scheme / Government of India",
+
+        "source_url": "https://pminternship.mca.gov.in/",
+
+        "application_url": "https://pminternship.mca.gov.in/",
+
+        "verified": true,
+
+        "verified_by": "Government of India",
+
+        "last_verified": "2026-10-03"
+    }
+]
